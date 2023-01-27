@@ -16,11 +16,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/third_fragment_text"
-            android:textAlignment="center"
-            android:textSize="@dimen/text_size_big"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:layout_editor_absoluteX="0dp" />
+            tools:layout_editor_absoluteX="0dp"
+            style="@style/Center_big_text"/>
 
         <Button
             android:id="@+id/button_to_secFrag"
