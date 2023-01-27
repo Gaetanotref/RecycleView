@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:text="@string/Instruction"
         android:textAlignment="center"
-        android:textSize="30sp"
+        android:textSize="@dimen/text_size_big"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@id/button_first"
         app:layout_constraintEnd_toEndOf="parent"
