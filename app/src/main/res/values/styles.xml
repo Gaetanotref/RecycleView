@@ -8,4 +8,11 @@
         <item name="android:textSize">@dimen/text_size_big</item>
         <item name="android:textStyle">bold</item>
     </style>
+    <style name="btn_text_size">
+        <item name="android:textSize">@dimen/text_size_norm</item>
+    </style>
+
+    <style name="TestTextToast" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_size_norm</item>
+    </style>
 </resources>

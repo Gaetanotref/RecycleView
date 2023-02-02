@@ -5,7 +5,7 @@
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
     <string name="third_fragment_label">Third Fragment</string>
-    <string name="next">Next</string>
+    <string name="next">Go to First</string>
     <string name="previous">Previous</string>
 
     <string name="Instruction">Hello,please click the fab button on the right bottom of the screen</string>
@@ -14,8 +14,9 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="third_fragment_text">This is the third Fragment!</string>
     <string name="go_to_second">Go to Second</string>
-    <string name="go_to_third">Go to third</string>
+    <string name="go_to_third">Go to Third</string>
     <string name="questa">Questa è</string>
     <string name="solamente">Solamente</string>
     <string name="una_prova">una prova</string>
+    <string name="toast_text">Non ho potuto riprendere il vecchio progetto perchè ho trovato più soddisfacente creare un nuovo progetto</string>
 </resources>

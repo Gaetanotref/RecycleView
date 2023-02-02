@@ -8,17 +8,19 @@ import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
+import android.widget.TextView
 import android.widget.Toast
+import android.app.Activity
+import android.view.LayoutInflater
 import com.example.exercise_add_another_screen_to_your_app.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityMainBinding
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
@@ -28,12 +30,14 @@ class MainActivity : AppCompatActivity() {
         appBarConfiguration = AppBarConfiguration(navController.graph)
         setupActionBarWithNavController(navController, appBarConfiguration)
 
+        //LAYOUT TOAST
+        val toastView = LayoutInflater.from(applicationContext).inflate(R.layout.toast_layout,null)
         binding.fab.setOnClickListener {
-            Toast.makeText(
-                applicationContext,
-                "Non ho ripreso il vecchio progetto perchè il metodo di navigazione tra fragment era difficile da implementare come richiesto",
-                Toast.LENGTH_LONG
-            ).show()
+            val toast = Toast(applicationContext)
+            toast.view= toastView
+            toast.duration=Toast.LENGTH_LONG
+            toast.show()
+
         }
     }
 
