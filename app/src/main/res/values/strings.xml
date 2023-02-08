@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Exercise_add_another_screen_to_your_app</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="third_fragment_label">Third Fragment</string>
+    <string name="next">Go to First</string>
+    <string name="previous">Previous</string>
+
+    <string name="Instruction">Hello,please click the fab button on the right bottom of the screen</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="button_fab">Button Fab</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="third_fragment_text">This is the third Fragment!</string>
+    <string name="go_to_second">Go to Second</string>
+    <string name="go_to_third">Go to Third</string>
+    <string name="questa">Questa è</string>
+    <string name="solamente">Solamente</string>
+    <string name="una_prova">una prova</string>
+    <string name="toast_text">Non ho potuto riprendere il vecchio progetto perchè ho trovato più soddisfacente creare un nuovo progetto</string>
+    <string name="Question_Frag_1">Which fragment is this?</string>
+    <string name="click">Click</string>
+    <string name="right">Right!</string>
+    <string name="wrong">Wrong</string>
+    <string name="titolo">Titolo</string>
+
+    <!-- RECYCLER LIST -->
+
+    <string name="string1">STRINGA 1</string>
+    <string name="string2">STRINGA 2</string>
+    <string name="string3">STRINGA 3</string>
+    <string name="string4">STRINGA 4</string>
+
+</resources>

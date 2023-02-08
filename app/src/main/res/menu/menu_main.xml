@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.exercise_add_another_screen_to_your_app.MainActivity">
+    <item
+        android:id="@+id/action_test1"
+        android:orderInCategory="100"
+        android:title="@string/questa"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_test2"
+        android:orderInCategory="200"
+        android:title="@string/solamente"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_test3"
+        android:orderInCategory="300"
+        android:title="@string/una_prova"
+        app:showAsAction="never" />
+
+</menu>

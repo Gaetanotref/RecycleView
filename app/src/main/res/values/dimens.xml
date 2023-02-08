@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_size_big">30sp</dimen>
+    <dimen name="min_dimen">32dp</dimen>
+    <dimen name="norm_dimen">64dp</dimen>
+    <dimen name="text_size_norm">20sp</dimen>
+    <dimen name="text_size_small">15sp</dimen>
+    <dimen name="big_dimen">64dp</dimen>
+    <dimen name="fab_dimen">40dp</dimen>
+    <dimen name="fab_dimen_img">30dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+</resources>
